@@ -1,0 +1,22 @@
+{
+  "name": "choklit-milk",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @choklit/web run dev",
+    "dev:api": "npm --workspace @choklit/api run dev",
+    "build": "npm run -ws build",
+    "test": "vitest run",
+    "typecheck": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0",
+    "tsx": "^4.20.0"
+  }
+}
