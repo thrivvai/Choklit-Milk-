@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/shared-types" },
+    { "path": "packages/policy-engine" },
+    { "path": "packages/approval-queue" },
+    { "path": "packages/timeline" },
+    { "path": "packages/runtime-provisioner" },
+    { "path": "packages/openclaw-client" },
+    { "path": "packages/skills-registry" },
+    { "path": "packages/control-plane" },
+    { "path": "apps/api" }
+  ]
+}
